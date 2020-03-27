@@ -12,13 +12,13 @@ ul ul {
 }
 
 .menu-wrapper {
-  //margin-left: 25px;
-  //border-style: solid;
-  width: 200px;
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 50px;
-margin-right: 50px;
+//margin-left: 25px;
+//border-style: solid;
+width: 300px;
+display: inline-block;
+vertical-align: top;
+margin-left: 45px;
+margin-right: 5px;
 margin-top: 10px;
 }
 
