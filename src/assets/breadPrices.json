@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Sweet Sourdough",
+    "price": "5 (+ 3 for Cinnamon Butter)"
+  },
+  {
+    "name": "Original Sourdough",
+    "price": 5
+  },
+  {
+    "name": "Pumpkin Bread",
+    "price": 5
+  },
+  {
+    "name": "Banana Bread",
+    "price": 5
+  }
+]

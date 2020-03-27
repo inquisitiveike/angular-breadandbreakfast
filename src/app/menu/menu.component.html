@@ -1,3 +1,43 @@
-<p>
-menu works!
-</p>
+
+<div class="menu-wrapper">
+  <img style="max-width: 200px;" src="https://i.imgur.com/ilxFKqg.jpg">
+<h5>Bread:</h5>
+<ul class="shipping-item">
+  <li *ngFor="let bread of breadCosts | async">{{ bread.name }}: ${{ bread.price }}</li>
+</ul>
+</div>
+
+<div class="menu-wrapper">
+  <img style="max-width: 200px;" src="https://i.imgur.com/prgvLXC.png">
+<h5>Breakfast:</h5>
+<ul>
+  <li *ngFor="let breakfast of breakfastCosts | async">{{ breakfast.name }}: ${{ breakfast.price }}</li>
+  <li>4 Scones or 10 Mini Scones:</li>
+    <ul>
+      <li *ngFor="let scone of sconeCosts | async">{{ scone.name }}: ${{ scone.price }}</li>
+    </ul>
+</ul>
+</div>
+
+<div class="menu-wrapper">
+  <img style="max-width: 200px;" src="https://i.imgur.com/n2VYqMn.jpg">
+<h5>Other:</h5>
+<ul>
+  <li>Cookies: $8</li>
+    <ul>
+      <li *ngFor="let cookie of cookieCosts | async">{{ cookie.quantity }}&nbsp;{{ cookie.name }}</li>
+    </ul>
+    <li>Pie (serves 8-10): $15</li>
+    <ul>
+      <li *ngFor="let pie of pieCosts | async">{{ pie.name }}</li>
+    </ul>
+    <li>Cakes: $25</li>
+    <ul>
+      <li *ngFor="let cake of cakeCosts | async">{{ cake.name }}</li>
+    </ul>
+    <li>Cupcakes: $2 each</li>
+    <ul>
+      <li *ngFor="let cupcake of cupcakeCosts | async">{{ cupcake.name }}</li>
+    </ul>
+</ul>
+</div>
