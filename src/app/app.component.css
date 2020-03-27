@@ -2,10 +2,24 @@ p {
   font-family: Lato;
 }
 
+.header-wrapper{
+  background-color: grey;
+  max-width: 700px;
+  text-align: center;
+
+}
+
 .nav-wrapper{
   background-color: grey;
   max-width: 700px;
   text-align: center;
+}
+
+.list-wrapper {
+  background-color: grey;
+  max-width: 700px;
+  text-align: center;
+  display: inline-block;
 
 }
 
